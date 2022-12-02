@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou simplesmente altere o tamanho da janela de seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 100px)" srcset="img/p.png" type="img/png">
+        <source media="(max-width: 1000px)" srcset="img/m.png" type="image/png">
+        <img src="img/g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender à reproduzir aúdios em HTML5.</p>
+    <audio src="media/mixkit-fast-small-sweep-transition-166.mp3" controls au></audio>
+    <audio preload="metadata" controls>
+        <source src="media/mixkit-fast-small-sweep-transition-166.mp3" type="audio/mpeg">
+        <source src="media/mixkit-fast-small-sweep-transition-166.ogg" type="audio/ogg">
+        <source src="media/mixkit-fast-small-sweep-transition-166.wav" type="audio/wav">
+        <p>Infelismente seu navegador não consegue reproduzir o arquivo de aúdio. <a href="media/Hmixkit-fast-small-sweep-transition-166.mp3">Clique aqui para baixar o arquivo MP3</a>.</p>
+    </audio>
+
+</body>
+</html>
