@@ -1,3 +1,3 @@
 # Curso_de_HTML5_e_CSS3
 
-Exercícios
+<a href="ex.html">Exercícios</a>
