@@ -28,6 +28,10 @@ header a, footer a{
 header a:hover, footer a:hover{
     text-decoration: underline;
 }
+section.normal{
+    background-color: white;
+    color: black;
+}
 
 footer{
     padding: 10px;
