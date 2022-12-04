@@ -32,7 +32,10 @@ section.normal{
     background-color: white;
     color: black;
 }
-
+section.imagem{
+    background-color: black;
+    color: white;
+}
 footer{
     padding: 10px;
 }
