@@ -28,13 +28,22 @@ header a, footer a{
 header a:hover, footer a:hover{
     text-decoration: underline;
 }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+padding-left: 30px;}
 section.normal{
     background-color: white;
     color: black;
 }
 section.imagem{
-    background-color: black;
+    background-color: red;
     color: white;
+}
+section.imagem > p{
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 footer{
     padding: 10px;
