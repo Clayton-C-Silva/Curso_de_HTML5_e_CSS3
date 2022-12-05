@@ -75,6 +75,11 @@ section#img01 {
 section#img02 {
     background-image: url(imagens/background002.jpg); 
 }
+section#j{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 footer{
     padding: 10px;
 }
