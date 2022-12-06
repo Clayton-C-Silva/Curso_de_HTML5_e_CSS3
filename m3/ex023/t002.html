@@ -11,6 +11,7 @@
         }
         table{
             width: 500px;
+            position: relative;
         }
         td, th{
             padding: 10px;
@@ -25,8 +26,17 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+            color: white;
+        }
         tbody{
             background-color: whitesmoke;
+        }
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
         }
         td.num{
             text-align: right;
@@ -51,7 +61,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col">População (2021)</th>
+                <th scope="col" style="width: 100px;">População (2021)</th>
             </tr>
         </thead>
         <tbody>
@@ -167,10 +177,14 @@
         </tbody>
         <tfoot>
             <tr>
-                <th scope="col">Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>213315618</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vero sapiente corporis nihil doloribus maiores quia, rem, quae eos amet repellendus! Voluptatem blanditiis hic iure harum? Eaque provident quasi ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus eius voluptatibus earum doloremque possimus dolores laborum cumque, enim, consequuntur quisquam numquam sapiente qui porro dolore excepturi. Laboriosam, sed nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero incidunt ex saepe corrupti, assumenda impedit placeat voluptatum vel molestias culpa tenetur maxime perspiciatis accusamus, accusantium obcaecati repellat sapiente dolores quas?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas totam veniam, numquam architecto deleniti sunt placeat dolorum? Dignissimos rerum explicabo corrupti nostrum repellat aliquam similique, quo sint ab tempore earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eveniet quaerat alias accusantium et excepturi repudiandae id illo veniam. Veritatis doloribus quam nostrum impedit quibusdam quo amet, aspernatur tenetur totam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis minus natus magni vero qui, est dolorem ut impedit necessitatibus dolorum molestiae illo voluptatum odio minima quia placeat quas praesentium laborum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum asperiores obcaecati, deleniti corporis dicta ea inventore facilis accusamus illum necessitatibus doloribus nesciunt veritatis aspernatur minus laboriosam, maiores distinctio earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptatibus ab expedita perspiciatis ratione illo nam cumque aut distinctio consectetur? Aliquam dolore animi totam ullam fugit qui libero, a odit.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid atque excepturi ducimus libero, blanditiis ex, ipsa nobis aspernatur vero sint explicabo fugit dolores numquam quia earum? Dolores numquam alias deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor veniam placeat, ab sunt, optio asperiores at nobis deserunt reiciendis cumque ratione esse, adipisci culpa eum? Vitae nihil harum eaque magnam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sapiente natus cum omnis eius quis ex quisquam harum nobis, neque repudiandae vel, quod perspiciatis, excepturi praesentium mollitia beatae ratione? Quia!</p>
 </body>
 </html>
