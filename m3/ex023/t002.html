@@ -15,6 +15,12 @@
         td, th{
             padding: 10px;
         }
+        caption{
+            font-weight: bolder;
+            padding: 10px;
+            background-color: gray;
+            color: white;
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -32,6 +38,7 @@
     <!--
         Anatomia de tabelas grandes
         Table
+            Capition
             THead
                 TR, TD, TH                
             TBody
@@ -40,10 +47,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População brasileira por UF</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População (2021)</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População (2021)</th>
             </tr>
         </thead>
         <tbody>
@@ -159,7 +167,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="col">Total de Habitantes</th>
                 <td class="num"><strong>213315618</strong></td>
             </tr>
         </tfoot>
